@@ -1,4 +1,6 @@
+/* to create database*/
 create database dilipkumar;
+/* to create a table*/
 create table dilipkumar.student(
 s_no int,
 name varchar(20),
@@ -9,6 +11,8 @@ place varchar(20)
 );
 select * from dilipkumar.student;
 describe dilipkumar.student;
+
+/*to insert the values in table*/ 
 insert into dilipkumar.student values
 (1,"dilip","20BM014","BME","MEC","rasipuram"),
 (2,"KARTHI","20BM024","BME","MEC","rasipuram"),
@@ -20,7 +24,10 @@ insert into dilipkumar.student values
 (8,"KAUYA","20BM012","BME","MEC","rasipuram"),
 (9,"KARUNYA","20BM013","BME","MEC","rasipuram"),
 (10,"dilip","20BM009","BME","MEC","rasipuram");
-use dilipkumar;
-drop database bme;
-drop table dilipkumar.student;
+
+/*to display a table*/
+select * from dilipkumar.student;
+describe dilipkumar.student;
+
+/*drop*/
 drop database dilipkumar;
