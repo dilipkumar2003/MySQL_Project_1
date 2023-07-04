@@ -1,0 +1,26 @@
+create database dilipkumar;
+create table dilipkumar.student(
+s_no int,
+name varchar(20),
+roll_no varchar(20),
+dept varchar(20),
+clg_name varchar(20),
+place varchar(20)
+);
+select * from dilipkumar.student;
+describe dilipkumar.student;
+insert into dilipkumar.student values
+(1,"dilip","20BM014","BME","MEC","rasipuram"),
+(2,"KARTHI","20BM024","BME","MEC","rasipuram"),
+(3,"KUMAR","20BM015","BME","MEC","rasipuram"),
+(4,"JAI","20BM016","BME","MEC","rasipuram"),
+(5,"SARATH","20BM018","BME","MEC","rasipuram"),
+(6,"DIYA","20BM010","BME","MEC","rasipuram"),
+(7,"NAVYA","20BM011","BME","MEC","rasipuram"),
+(8,"KAUYA","20BM012","BME","MEC","rasipuram"),
+(9,"KARUNYA","20BM013","BME","MEC","rasipuram"),
+(10,"dilip","20BM009","BME","MEC","rasipuram");
+use dilipkumar;
+drop database bme;
+drop table dilipkumar.student;
+drop database dilipkumar;
